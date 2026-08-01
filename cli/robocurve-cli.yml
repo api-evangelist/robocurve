@@ -1,0 +1,67 @@
+generated: '2026-07-21'
+method: searched
+source: https://inspectrobots.org/guide/cli/
+name: inspect-robots CLI
+description: >-
+  First-party command-line interface for the Inspect Robots evaluation
+  framework. Installed with the inspect-robots Python package (binary
+  "inspect-robots", alias "inspect-robot").
+binary: inspect-robots
+aliases:
+- inspect-robot
+install:
+- method: pip
+  command: pip install inspect-robots
+package: inspect-robots
+commands:
+- name: (ad-hoc)
+  usage: inspect-robots "<instruction>"
+  description: Run a single-line robot command with the default policy/embodiment.
+- name: setup
+  description: Interactive first-run wizard for defaults and device assignment.
+- name: config set
+  description: Scripted configuration editing.
+- name: list
+  description: Show registered components (optional filter policies|embodiments).
+- name: run
+  description: Execute an eval with task/policy/embodiment resolution.
+- name: eval-set
+  description: Run multiple tasks against one policy/embodiment pair.
+- name: doctor
+  description: Check embodiment runtime modules and space adapter conformance.
+- name: inspect
+  description: Print a saved EvalLog summary.
+- name: view
+  description: Render an EvalLog as a self-contained HTML report.
+- name: video
+  description: Convert stored frames into MP4 per (trial, camera).
+key_flags:
+  component_resolution:
+  - --policy
+  - --embodiment
+  - --task
+  - --instruction
+  constructor_args:
+  - -P key=value
+  - -E key=value
+  - -T key=value
+  execution:
+  - --sim
+  - --epochs N
+  - --max-steps N
+  - --seed
+  - --fail-on-error
+  output:
+  - --log-dir
+  - --store-frames
+  - --no-store-frames
+  - --frames-budget MB
+  scoring:
+  - --scorer NAME
+  - --no-prompt
+  reporting:
+  - -o REPORT.html
+  - --open
+  - --no-frames
+  - --ffmpeg PATH
+  - --fps N

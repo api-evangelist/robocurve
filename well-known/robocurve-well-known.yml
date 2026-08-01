@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: probed
+source: robocurve.org, inspectrobots.org
+description: >-
+  Probe of standard /.well-known/ discovery endpoints across Robocurve hosts.
+  No well-known documents are published; recorded here for provenance. (An
+  llms.txt is published at inspectrobots.org and is captured separately under
+  llms/.)
+probes:
+- host: robocurve.org
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: robocurve.org
+  path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- host: robocurve.org
+  path: /.well-known/api-catalog
+  status: 404
+  file: null
+- host: inspectrobots.org
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: inspectrobots.org
+  path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- host: inspectrobots.org
+  path: /openapi.json
+  status: 404
+  file: null

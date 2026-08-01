@@ -1,0 +1,43 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/project/inspect-robots/, https://pypi.org/project/worldevals/, https://github.com/robocurve
+name: Robocurve packages
+description: >-
+  First-party open-source Python packages published by Robocurve on PyPI. These
+  are libraries/SDKs and a CLI for the Inspect Robots evaluation framework and
+  its World Evals benchmark catalog — Robocurve distributes no hosted REST API or
+  conventional API client SDKs.
+packages:
+- name: inspect-robots
+  registry: pypi
+  official: true
+  language: python
+  license: MIT
+  latest_version: 0.21.1
+  url: https://pypi.org/project/inspect-robots/
+  repository: https://github.com/robocurve/inspect-robots
+  documentation: https://inspectrobots.org/
+  install: pip install inspect-robots
+  extras:
+  - name: rerun
+    install: pip install "inspect-robots[rerun]"
+    description: Adds Rerun live visualization support.
+  summary: >-
+    Evaluation framework for VLA (vision-language-action) models across real
+    robots and simulators — "the Inspect AI for robotics". Provides eval(), Task,
+    Policy, Embodiment, and Scene programmatic interfaces plus the inspect-robots
+    CLI.
+- name: worldevals
+  registry: pypi
+  official: true
+  language: python
+  license: MIT
+  latest_version: 0.3.1
+  url: https://pypi.org/project/worldevals/
+  repository: https://github.com/robocurve/worldevals
+  documentation: https://worldevals.org/
+  install: pip install worldevals
+  summary: >-
+    Curated catalog of physical-AI benchmarks built on Inspect Robots — "the
+    Inspect Evals for robotics". Ships benchmarks such as KitchenBench and
+    DataCenterBench.

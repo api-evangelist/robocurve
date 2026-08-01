@@ -1,0 +1,45 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/robocurve/inspect-robots/releases
+name: Inspect Robots changelog
+description: >-
+  Release history for the inspect-robots package, published as dated GitHub
+  releases with per-release notes. Recent window only.
+scheme: semver
+current_version: 0.21.1
+releases_url: https://github.com/robocurve/inspect-robots/releases
+total_releases: 28
+entries:
+- version: 0.21.1
+  date: '2026-07-19'
+  breaking: false
+  highlights:
+  - capx policy plugin — code-as-policy agents via CaP-X perception servers.
+- version: 0.21.0
+  date: '2026-07-17'
+  breaking: false
+  highlights:
+  - CLI view embeds the stored camera frames each agent turn saw.
+  - Docs module map adds _html.py and view.
+- version: 0.20.0
+  date: '2026-07-17'
+  breaking: false
+  highlights:
+  - inspect-robots view renders an eval log as a self-contained HTML page.
+- version: 0.19.1
+  date: '2026-07-17'
+  breaking: false
+  highlights:
+  - Agent -P wire=responses dials reasoning effort on OpenAI models.
+- version: 0.19.0
+  date: '2026-07-17'
+  breaking: false
+  highlights:
+  - Mandatory per-tool-call note for user visibility.
+- version: 0.18.0
+  date: '2026-07-17'
+  breaking: false
+  highlights:
+  - CLI eval-set runs multiple tasks in one invocation.
+  - Rollout formalizes a self-paced-only control-rate contract.
+  - Cookbook — evaluate a GR00T fine-tune on real YAM arms.

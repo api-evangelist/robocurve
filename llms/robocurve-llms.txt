@@ -1,0 +1,18 @@
+# Inspect Robots
+
+> The Inspect AI for robotics: an evaluation framework for physical AI and VLA (vision-language-action) models.
+
+Inspect Robots is the open-source evaluation framework for physical AI and VLA (vision-language-action) models — the "Inspect AI for robotics". A benchmark is a Task (dataset of Scenes + scorers) run against two swappable inputs: a Policy (the VLA) and an Embodiment (a real robot or simulator).
+
+## Guide
+
+- [Home](https://inspectrobots.org/index.md)
+- [Quickstart](https://inspectrobots.org/guide/quickstart/index.md)
+- [Concepts](https://inspectrobots.org/guide/concepts/index.md)
+- [Writing a benchmark](https://inspectrobots.org/guide/writing-a-benchmark/index.md)
+- [Policies and embodiments](https://inspectrobots.org/guide/policies-and-embodiments/index.md)
+- [Scoring](https://inspectrobots.org/guide/scoring/index.md)
+- [Logging &amp; Rerun](https://inspectrobots.org/guide/logging-and-rerun/index.md)
+- [Plugins &amp; the registry](https://inspectrobots.org/guide/plugins/index.md)
+- [Command-line interface](https://inspectrobots.org/guide/cli/index.md)
+
