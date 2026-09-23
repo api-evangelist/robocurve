@@ -1,0 +1,29 @@
+# Front Door AI Index — robocurve — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: robocurve
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: robocurve.org
+  final_host: robocurve.org
+  ownership: own
+  owner: robocurve
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 25
+  host_score: 25
+  density: 22.56
+  words: 1108
+  tiers:
+    agentic: 4
+    core: 19
+    model: 2
+  ambiguous: 8
+  top_terms:
+    AI: 19
+    automation: 6
+    inference: 4
+    OpenAI: 2
+    intelligence: 2
