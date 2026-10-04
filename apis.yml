@@ -49,8 +49,8 @@ tags:
 - Physical AI
 - Evaluation
 - Benchmarks
-- Open-Source
-- Machine-Learning
+- Open Source
+- Machine Learning
 - Vision Language Action
 tags_raw:
 - Company
@@ -61,6 +61,8 @@ tags_raw:
 - Open Source
 - Machine Learning
 - Vision Language Action
+- Open-Source
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
